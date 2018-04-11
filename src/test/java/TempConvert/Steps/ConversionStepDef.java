@@ -37,7 +37,7 @@ public class ConversionStepDef {
 		@When("^I input the value of Fahrenheit as (\\d+)\\.(\\d+) in text field$")
 		public void i_input_the_value_of_Fahrenheit_as_in_text_field(int arg1, int arg2) throws Throwable {
 		    // Write code here that turns the phrase above into concrete actions
-			temperatureConverterPage.inputFahrenheit(98.6);
+			temperatureConverterPage.inputFahrenheit(98);
 		}
 
 		@Then("^It should be converted to Celsius as (\\d+) degree$")
