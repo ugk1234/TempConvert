@@ -1,4 +1,13 @@
 package TempConvert.Steps;
+/* git helper
+git remote get url origin
+git push -u origin master
+git init
+git remote add origin https://github.com/ugk1234/TempConvert.git
+git status
+git add .
+git commit -m "comments" 
+ */
 
 import static org.testng.Assert.assertEquals;
 
@@ -37,7 +46,7 @@ public class ConversionStepDef {
 		@When("^I input the value of Fahrenheit as (\\d+)\\.(\\d+) in text field$")
 		public void i_input_the_value_of_Fahrenheit_as_in_text_field(int arg1, int arg2) throws Throwable {
 		    // Write code here that turns the phrase above into concrete actions
-			temperatureConverterPage.inputFahrenheit(98);
+			temperatureConverterPage.inputFahrenheit(98.6);
 		}
 
 		@Then("^It should be converted to Celsius as (\\d+) degree$")

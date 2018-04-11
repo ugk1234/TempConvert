@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="1539" started-at="2018-04-11T13:11:00Z" finished-at="2018-04-11T13:11:02Z">
+  <suite name="Surefire suite" duration-ms="1262" started-at="2018-04-11T16:48:34Z" finished-at="2018-04-11T16:48:35Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="1539" started-at="2018-04-11T13:11:00Z" finished-at="2018-04-11T13:11:02Z">
+    <test name="Surefire test" duration-ms="1262" started-at="2018-04-11T16:48:34Z" finished-at="2018-04-11T16:48:35Z">
       <class name="TempConvert.SampleJavaIT">
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="beforeSuite" is-config="true" duration-ms="3663" started-at="2018-04-11T18:40:57Z" finished-at="2018-04-11T18:41:00Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="beforeSuite" is-config="true" duration-ms="4399" started-at="2018-04-11T22:18:29Z" finished-at="2018-04-11T22:18:34Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="2" started-at="2018-04-11T18:41:00Z" finished-at="2018-04-11T18:41:00Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="3" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2018-04-11T18:41:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-04-11T18:41:00Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2018-04-11T22:18:34Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-04-11T22:18:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2018-04-11T18:41:00Z" finished-at="2018-04-11T18:41:00Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <params>
             <param index="0">
               <value>
@@ -37,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="echoToday()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="echoToday" duration-ms="675" started-at="2018-04-11T18:41:00Z" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="echoToday()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="echoToday" duration-ms="228" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- echoToday -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-04-11T18:41:01Z" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="5" started-at="2018-04-11T18:41:01Z" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="sayHello()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="sayHello" duration-ms="111" started-at="2018-04-11T18:41:01Z" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="sayHello()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="sayHello" duration-ms="119" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sayHello -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-04-11T18:41:01Z" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-04-11T18:41:01Z" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->
-        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="afterSuite" is-config="true" duration-ms="335" started-at="2018-04-11T18:41:02Z" finished-at="2018-04-11T18:41:02Z">
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:TempConvert.SampleJavaIT@3d74bf60]" name="afterSuite" is-config="true" duration-ms="147" started-at="2018-04-11T22:18:35Z" finished-at="2018-04-11T22:18:35Z">
           <params>
             <param index="0">
               <value>
@@ -95,19 +95,15 @@
         </test-method> <!-- afterSuite -->
       </class> <!-- TempConvert.SampleJavaIT -->
       <class name="TempConvert.SampleXmlIT">
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2018-04-11T18:41:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="7" started-at="2018-04-11T22:18:34Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-04-11T22:18:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2018-04-11T18:41:01Z" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="sampleXml()[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="sampleXml" duration-ms="617" started-at="2018-04-11T18:41:01Z" finished-at="2018-04-11T18:41:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleXml -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-04-11T18:41:01Z" finished-at="2018-04-11T18:41:01Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:34Z">
           <params>
             <param index="0">
               <value>
@@ -118,7 +114,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-04-11T18:41:02Z" finished-at="2018-04-11T18:41:02Z">
+        <test-method status="PASS" signature="sampleXml()[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="sampleXml" duration-ms="763" started-at="2018-04-11T22:18:34Z" finished-at="2018-04-11T22:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleXml -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-04-11T22:18:35Z" finished-at="2018-04-11T22:18:35Z">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-04-11T18:41:02Z" finished-at="2018-04-11T18:41:02Z">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:TempConvert.SampleXmlIT@2145b572]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-04-11T22:18:35Z" finished-at="2018-04-11T22:18:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->
