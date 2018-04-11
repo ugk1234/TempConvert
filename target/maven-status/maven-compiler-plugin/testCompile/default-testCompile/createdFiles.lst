@@ -1,2 +1,5 @@
+TempConvert\RunCukesTest.class
+TempConvert\Google.class
 TempConvert\SampleJavaIT.class
+TempConvert\Steps\ConversionStepDef.class
 TempConvert\SampleXmlIT.class
