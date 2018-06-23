@@ -54,6 +54,13 @@ public class ConversionStepDef {
 		    // Write code here that turns the phrase above into concrete actions
 	        assertEquals(temperatureConverterPage.actualResult(), temperatureConverterPage.expectedResult());
 	        //driver.quit();
-	
 		}
+	      
+	        /*@Then("^It should be converted to Celsius as (\\d+)\\.(\\d+) degree$")
+	        public void it_should_be_converted_to_Celsius_as_degree(int arg1, int arg2) throws Throwable {
+	            // Write code here that turns the phrase above into concrete actions
+	            throw new PendingException();
+	            assertEquals(temperatureConverterPage.actualResult(), temperatureConverterPage.expectedResult());
+	            */
+		
 }
