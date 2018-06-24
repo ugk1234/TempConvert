@@ -24,12 +24,12 @@ public class TemperatureConverterPage {
             driver.findElement(By.id("inputCelsius"));
             
             String valueOfCelsius =  driver.findElement(By.id("inputCelsius")).getAttribute("value");
-            System.out.println("in Actual result ****" + valueOfCelsius);
+            System.out.println("in Actual result ******" + valueOfCelsius);
             return valueOfCelsius;
         }
         
         public String expectedResult(){
-            return "37.01";
+            return "37.00";
         }
     }
    
