@@ -29,7 +29,7 @@ public class TemperatureConverterPage {
         }
         
         public String expectedResult(){
-            return "37.00";
+            return "37.01";
         }
     }
    
